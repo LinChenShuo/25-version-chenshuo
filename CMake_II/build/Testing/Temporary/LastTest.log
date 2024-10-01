@@ -1,0 +1,19 @@
+Start testing: Oct 01 22:21 CST
+----------------------------------------------------------
+1/1 Testing: test
+1/1 Test: test
+Command: "/home/shuo/Desktop/cmake/CMake_II/build/modules/assembly1/assembly1_test"
+Directory: /home/shuo/Desktop/cmake/CMake_II/build/modules/assembly1
+"test" start time: Oct 01 22:21 CST
+Output:
+----------------------------------------------------------
+2
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"test" end time: Oct 01 22:21 CST
+"test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 01 22:21 CST

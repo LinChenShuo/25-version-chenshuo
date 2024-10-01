@@ -1,0 +1,5 @@
+find_package(OpenCV REQUIRED)
+add_library(assembly2 ${CMAKE_CURRENT_SOURCE_DIR}/src/assembly2.cpp)
+target_include_directories(assembly2 PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)
+target_link_libraries(assembly2 PUBLIC ${OpenCV_LIBS})
+message(STATUS "assembly2 ok")
