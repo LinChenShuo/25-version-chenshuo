@@ -5,13 +5,13 @@
 # compile CXX with /usr/bin/c++
 C_DEFINES = 
 
-C_INCLUDES = -I/home/shuo/Desktop/cmake/CMake_II/modules/module2/include
+C_INCLUDES = -I/home/shuo/Desktop/vision/25-vision-chen-shuo/CMake_II/modules/module2/include
 
 C_FLAGS = 
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/shuo/Desktop/cmake/CMake_II/modules/module2/include
+CXX_INCLUDES = -I/home/shuo/Desktop/vision/25-vision-chen-shuo/CMake_II/modules/module2/include
 
 CXX_FLAGS = 
 

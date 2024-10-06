@@ -1,7 +1,7 @@
 modules/assembly2/CMakeFiles/assembly2.dir/src/assembly2.cpp.o: \
- /home/shuo/Desktop/cmake/CMake_II/modules/assembly2/src/assembly2.cpp \
+ /home/shuo/Desktop/vision/25-vision-chen-shuo/CMake_II/modules/assembly2/src/assembly2.cpp \
  /usr/include/stdc-predef.h \
- /home/shuo/Desktop/cmake/CMake_II/modules/assembly2/include/robotlab/assembly2.h \
+ /home/shuo/Desktop/vision/25-vision-chen-shuo/CMake_II/modules/assembly2/include/robotlab/assembly2.h \
  /usr/include/opencv4/opencv2/core.hpp \
  /usr/include/opencv4/opencv2/core/cvdef.h \
  /usr/include/opencv4/opencv2/core/version.hpp /usr/include/c++/11/limits \

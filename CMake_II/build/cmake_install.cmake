@@ -1,4 +1,4 @@
-# Install script for directory: /home/shuo/Desktop/cmake/CMake_II
+# Install script for directory: /home/shuo/Desktop/vision/25-vision-chen-shuo/CMake_II
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,8 +44,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/shuo/Desktop/cmake/CMake_II/build/modules/cmake_install.cmake")
-  include("/home/shuo/Desktop/cmake/CMake_II/build/common/cmake_install.cmake")
+  include("/home/shuo/Desktop/vision/25-vision-chen-shuo/CMake_II/build/modules/cmake_install.cmake")
+  include("/home/shuo/Desktop/vision/25-vision-chen-shuo/CMake_II/build/common/cmake_install.cmake")
 
 endif()
 
@@ -57,5 +57,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/shuo/Desktop/cmake/CMake_II/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/shuo/Desktop/vision/25-vision-chen-shuo/CMake_II/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -1,4 +1,4 @@
-# Install script for directory: /home/shuo/Desktop/cmake/CMake_II/modules/module1
+# Install script for directory: /home/shuo/Desktop/vision/25-vision-chen-shuo/CMake_II/modules/module1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

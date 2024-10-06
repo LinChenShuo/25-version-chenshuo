@@ -21,7 +21,7 @@ add_subdirectory(common)
 # 创建可执行文件并链接
 
 add_executable(server server.cpp)
-target_link_libraries(server PUBLIC ${OpenCV_LIBS} rmath singleton assembly1 assembly2 module1 module2 )
+target_link_libraries(server PUBLIC ${OpenCV_LIBS} rmath singleton assembly1 assembly2 module1 module2)
 
 add_executable(client client.cpp)
 target_link_libraries(client PUBLIC rmath singleton assembly1 assembly2 module1 module2)

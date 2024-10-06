@@ -1,4 +1,4 @@
-# Install script for directory: /home/shuo/Desktop/cmake/CMake_II/common
+# Install script for directory: /home/shuo/Desktop/vision/25-vision-chen-shuo/CMake_II/common
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,8 +44,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/shuo/Desktop/cmake/CMake_II/build/common/rmath/cmake_install.cmake")
-  include("/home/shuo/Desktop/cmake/CMake_II/build/common/singleton/cmake_install.cmake")
+  include("/home/shuo/Desktop/vision/25-vision-chen-shuo/CMake_II/build/common/rmath/cmake_install.cmake")
+  include("/home/shuo/Desktop/vision/25-vision-chen-shuo/CMake_II/build/common/singleton/cmake_install.cmake")
 
 endif()
 

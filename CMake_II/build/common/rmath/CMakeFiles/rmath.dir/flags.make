@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/shuo/Desktop/cmake/CMake_II/common/rmath/include -isystem /usr/include/opencv4
+CXX_INCLUDES = -I/home/shuo/Desktop/vision/25-vision-chen-shuo/CMake_II/common/rmath/include -isystem /usr/include/opencv4
 
 CXX_FLAGS = 
 

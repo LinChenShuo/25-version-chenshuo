@@ -1,0 +1,26 @@
+{
+    "files.associations": {
+        "stop_token": "cpp",
+        "ostream": "cpp",
+        "array": "cpp",
+        "string_view": "cpp",
+        "string": "cpp",
+        "iostream": "cpp",
+        "chrono": "cpp",
+        "random": "cpp",
+        "limits": "cpp",
+        "semaphore": "cpp",
+        "deque": "cpp",
+        "vector": "cpp",
+        "initializer_list": "cpp",
+        "utility": "cpp",
+        "tuple": "cpp",
+        "cmath": "cpp",
+        "list": "cpp",
+        "unordered_map": "cpp",
+        "*.tcc": "cpp",
+        "complex": "cpp",
+        "iterator": "cpp",
+        "iosfwd": "cpp"
+    }
+}

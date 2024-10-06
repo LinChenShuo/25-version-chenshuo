@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/shuo/Desktop/cmake/CMake_II
+CMAKE_SOURCE_DIR = /home/shuo/Desktop/vision/25-vision-chen-shuo/CMake_II
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/shuo/Desktop/cmake/CMake_II/build
+CMAKE_BINARY_DIR = /home/shuo/Desktop/vision/25-vision-chen-shuo/CMake_II/build
 
 # Include any dependencies generated for this target.
 include modules/module2/CMakeFiles/module2.dir/depend.make
@@ -72,86 +72,86 @@ include modules/module2/CMakeFiles/module2.dir/flags.make
 modules/module2/CMakeFiles/module2.dir/src/argument.cpp.o: modules/module2/CMakeFiles/module2.dir/flags.make
 modules/module2/CMakeFiles/module2.dir/src/argument.cpp.o: ../modules/module2/src/argument.cpp
 modules/module2/CMakeFiles/module2.dir/src/argument.cpp.o: modules/module2/CMakeFiles/module2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuo/Desktop/cmake/CMake_II/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object modules/module2/CMakeFiles/module2.dir/src/argument.cpp.o"
-	cd /home/shuo/Desktop/cmake/CMake_II/build/modules/module2 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/module2/CMakeFiles/module2.dir/src/argument.cpp.o -MF CMakeFiles/module2.dir/src/argument.cpp.o.d -o CMakeFiles/module2.dir/src/argument.cpp.o -c /home/shuo/Desktop/cmake/CMake_II/modules/module2/src/argument.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuo/Desktop/vision/25-vision-chen-shuo/CMake_II/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object modules/module2/CMakeFiles/module2.dir/src/argument.cpp.o"
+	cd /home/shuo/Desktop/vision/25-vision-chen-shuo/CMake_II/build/modules/module2 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/module2/CMakeFiles/module2.dir/src/argument.cpp.o -MF CMakeFiles/module2.dir/src/argument.cpp.o.d -o CMakeFiles/module2.dir/src/argument.cpp.o -c /home/shuo/Desktop/vision/25-vision-chen-shuo/CMake_II/modules/module2/src/argument.cpp
 
 modules/module2/CMakeFiles/module2.dir/src/argument.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/module2.dir/src/argument.cpp.i"
-	cd /home/shuo/Desktop/cmake/CMake_II/build/modules/module2 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shuo/Desktop/cmake/CMake_II/modules/module2/src/argument.cpp > CMakeFiles/module2.dir/src/argument.cpp.i
+	cd /home/shuo/Desktop/vision/25-vision-chen-shuo/CMake_II/build/modules/module2 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shuo/Desktop/vision/25-vision-chen-shuo/CMake_II/modules/module2/src/argument.cpp > CMakeFiles/module2.dir/src/argument.cpp.i
 
 modules/module2/CMakeFiles/module2.dir/src/argument.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/module2.dir/src/argument.cpp.s"
-	cd /home/shuo/Desktop/cmake/CMake_II/build/modules/module2 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shuo/Desktop/cmake/CMake_II/modules/module2/src/argument.cpp -o CMakeFiles/module2.dir/src/argument.cpp.s
+	cd /home/shuo/Desktop/vision/25-vision-chen-shuo/CMake_II/build/modules/module2 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shuo/Desktop/vision/25-vision-chen-shuo/CMake_II/modules/module2/src/argument.cpp -o CMakeFiles/module2.dir/src/argument.cpp.s
 
 modules/module2/CMakeFiles/module2.dir/src/client.cpp.o: modules/module2/CMakeFiles/module2.dir/flags.make
 modules/module2/CMakeFiles/module2.dir/src/client.cpp.o: ../modules/module2/src/client.cpp
 modules/module2/CMakeFiles/module2.dir/src/client.cpp.o: modules/module2/CMakeFiles/module2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuo/Desktop/cmake/CMake_II/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object modules/module2/CMakeFiles/module2.dir/src/client.cpp.o"
-	cd /home/shuo/Desktop/cmake/CMake_II/build/modules/module2 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/module2/CMakeFiles/module2.dir/src/client.cpp.o -MF CMakeFiles/module2.dir/src/client.cpp.o.d -o CMakeFiles/module2.dir/src/client.cpp.o -c /home/shuo/Desktop/cmake/CMake_II/modules/module2/src/client.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuo/Desktop/vision/25-vision-chen-shuo/CMake_II/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object modules/module2/CMakeFiles/module2.dir/src/client.cpp.o"
+	cd /home/shuo/Desktop/vision/25-vision-chen-shuo/CMake_II/build/modules/module2 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/module2/CMakeFiles/module2.dir/src/client.cpp.o -MF CMakeFiles/module2.dir/src/client.cpp.o.d -o CMakeFiles/module2.dir/src/client.cpp.o -c /home/shuo/Desktop/vision/25-vision-chen-shuo/CMake_II/modules/module2/src/client.cpp
 
 modules/module2/CMakeFiles/module2.dir/src/client.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/module2.dir/src/client.cpp.i"
-	cd /home/shuo/Desktop/cmake/CMake_II/build/modules/module2 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shuo/Desktop/cmake/CMake_II/modules/module2/src/client.cpp > CMakeFiles/module2.dir/src/client.cpp.i
+	cd /home/shuo/Desktop/vision/25-vision-chen-shuo/CMake_II/build/modules/module2 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shuo/Desktop/vision/25-vision-chen-shuo/CMake_II/modules/module2/src/client.cpp > CMakeFiles/module2.dir/src/client.cpp.i
 
 modules/module2/CMakeFiles/module2.dir/src/client.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/module2.dir/src/client.cpp.s"
-	cd /home/shuo/Desktop/cmake/CMake_II/build/modules/module2 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shuo/Desktop/cmake/CMake_II/modules/module2/src/client.cpp -o CMakeFiles/module2.dir/src/client.cpp.s
+	cd /home/shuo/Desktop/vision/25-vision-chen-shuo/CMake_II/build/modules/module2 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shuo/Desktop/vision/25-vision-chen-shuo/CMake_II/modules/module2/src/client.cpp -o CMakeFiles/module2.dir/src/client.cpp.s
 
 modules/module2/CMakeFiles/module2.dir/src/object.cpp.o: modules/module2/CMakeFiles/module2.dir/flags.make
 modules/module2/CMakeFiles/module2.dir/src/object.cpp.o: ../modules/module2/src/object.cpp
 modules/module2/CMakeFiles/module2.dir/src/object.cpp.o: modules/module2/CMakeFiles/module2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuo/Desktop/cmake/CMake_II/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object modules/module2/CMakeFiles/module2.dir/src/object.cpp.o"
-	cd /home/shuo/Desktop/cmake/CMake_II/build/modules/module2 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/module2/CMakeFiles/module2.dir/src/object.cpp.o -MF CMakeFiles/module2.dir/src/object.cpp.o.d -o CMakeFiles/module2.dir/src/object.cpp.o -c /home/shuo/Desktop/cmake/CMake_II/modules/module2/src/object.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuo/Desktop/vision/25-vision-chen-shuo/CMake_II/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object modules/module2/CMakeFiles/module2.dir/src/object.cpp.o"
+	cd /home/shuo/Desktop/vision/25-vision-chen-shuo/CMake_II/build/modules/module2 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/module2/CMakeFiles/module2.dir/src/object.cpp.o -MF CMakeFiles/module2.dir/src/object.cpp.o.d -o CMakeFiles/module2.dir/src/object.cpp.o -c /home/shuo/Desktop/vision/25-vision-chen-shuo/CMake_II/modules/module2/src/object.cpp
 
 modules/module2/CMakeFiles/module2.dir/src/object.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/module2.dir/src/object.cpp.i"
-	cd /home/shuo/Desktop/cmake/CMake_II/build/modules/module2 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shuo/Desktop/cmake/CMake_II/modules/module2/src/object.cpp > CMakeFiles/module2.dir/src/object.cpp.i
+	cd /home/shuo/Desktop/vision/25-vision-chen-shuo/CMake_II/build/modules/module2 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shuo/Desktop/vision/25-vision-chen-shuo/CMake_II/modules/module2/src/object.cpp > CMakeFiles/module2.dir/src/object.cpp.i
 
 modules/module2/CMakeFiles/module2.dir/src/object.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/module2.dir/src/object.cpp.s"
-	cd /home/shuo/Desktop/cmake/CMake_II/build/modules/module2 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shuo/Desktop/cmake/CMake_II/modules/module2/src/object.cpp -o CMakeFiles/module2.dir/src/object.cpp.s
+	cd /home/shuo/Desktop/vision/25-vision-chen-shuo/CMake_II/build/modules/module2 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shuo/Desktop/vision/25-vision-chen-shuo/CMake_II/modules/module2/src/object.cpp -o CMakeFiles/module2.dir/src/object.cpp.s
 
 modules/module2/CMakeFiles/module2.dir/src/open62541.c.o: modules/module2/CMakeFiles/module2.dir/flags.make
 modules/module2/CMakeFiles/module2.dir/src/open62541.c.o: ../modules/module2/src/open62541.c
 modules/module2/CMakeFiles/module2.dir/src/open62541.c.o: modules/module2/CMakeFiles/module2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuo/Desktop/cmake/CMake_II/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object modules/module2/CMakeFiles/module2.dir/src/open62541.c.o"
-	cd /home/shuo/Desktop/cmake/CMake_II/build/modules/module2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT modules/module2/CMakeFiles/module2.dir/src/open62541.c.o -MF CMakeFiles/module2.dir/src/open62541.c.o.d -o CMakeFiles/module2.dir/src/open62541.c.o -c /home/shuo/Desktop/cmake/CMake_II/modules/module2/src/open62541.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuo/Desktop/vision/25-vision-chen-shuo/CMake_II/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object modules/module2/CMakeFiles/module2.dir/src/open62541.c.o"
+	cd /home/shuo/Desktop/vision/25-vision-chen-shuo/CMake_II/build/modules/module2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT modules/module2/CMakeFiles/module2.dir/src/open62541.c.o -MF CMakeFiles/module2.dir/src/open62541.c.o.d -o CMakeFiles/module2.dir/src/open62541.c.o -c /home/shuo/Desktop/vision/25-vision-chen-shuo/CMake_II/modules/module2/src/open62541.c
 
 modules/module2/CMakeFiles/module2.dir/src/open62541.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/module2.dir/src/open62541.c.i"
-	cd /home/shuo/Desktop/cmake/CMake_II/build/modules/module2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/shuo/Desktop/cmake/CMake_II/modules/module2/src/open62541.c > CMakeFiles/module2.dir/src/open62541.c.i
+	cd /home/shuo/Desktop/vision/25-vision-chen-shuo/CMake_II/build/modules/module2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/shuo/Desktop/vision/25-vision-chen-shuo/CMake_II/modules/module2/src/open62541.c > CMakeFiles/module2.dir/src/open62541.c.i
 
 modules/module2/CMakeFiles/module2.dir/src/open62541.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/module2.dir/src/open62541.c.s"
-	cd /home/shuo/Desktop/cmake/CMake_II/build/modules/module2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/shuo/Desktop/cmake/CMake_II/modules/module2/src/open62541.c -o CMakeFiles/module2.dir/src/open62541.c.s
+	cd /home/shuo/Desktop/vision/25-vision-chen-shuo/CMake_II/build/modules/module2 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/shuo/Desktop/vision/25-vision-chen-shuo/CMake_II/modules/module2/src/open62541.c -o CMakeFiles/module2.dir/src/open62541.c.s
 
 modules/module2/CMakeFiles/module2.dir/src/server.cpp.o: modules/module2/CMakeFiles/module2.dir/flags.make
 modules/module2/CMakeFiles/module2.dir/src/server.cpp.o: ../modules/module2/src/server.cpp
 modules/module2/CMakeFiles/module2.dir/src/server.cpp.o: modules/module2/CMakeFiles/module2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuo/Desktop/cmake/CMake_II/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object modules/module2/CMakeFiles/module2.dir/src/server.cpp.o"
-	cd /home/shuo/Desktop/cmake/CMake_II/build/modules/module2 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/module2/CMakeFiles/module2.dir/src/server.cpp.o -MF CMakeFiles/module2.dir/src/server.cpp.o.d -o CMakeFiles/module2.dir/src/server.cpp.o -c /home/shuo/Desktop/cmake/CMake_II/modules/module2/src/server.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuo/Desktop/vision/25-vision-chen-shuo/CMake_II/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object modules/module2/CMakeFiles/module2.dir/src/server.cpp.o"
+	cd /home/shuo/Desktop/vision/25-vision-chen-shuo/CMake_II/build/modules/module2 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/module2/CMakeFiles/module2.dir/src/server.cpp.o -MF CMakeFiles/module2.dir/src/server.cpp.o.d -o CMakeFiles/module2.dir/src/server.cpp.o -c /home/shuo/Desktop/vision/25-vision-chen-shuo/CMake_II/modules/module2/src/server.cpp
 
 modules/module2/CMakeFiles/module2.dir/src/server.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/module2.dir/src/server.cpp.i"
-	cd /home/shuo/Desktop/cmake/CMake_II/build/modules/module2 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shuo/Desktop/cmake/CMake_II/modules/module2/src/server.cpp > CMakeFiles/module2.dir/src/server.cpp.i
+	cd /home/shuo/Desktop/vision/25-vision-chen-shuo/CMake_II/build/modules/module2 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shuo/Desktop/vision/25-vision-chen-shuo/CMake_II/modules/module2/src/server.cpp > CMakeFiles/module2.dir/src/server.cpp.i
 
 modules/module2/CMakeFiles/module2.dir/src/server.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/module2.dir/src/server.cpp.s"
-	cd /home/shuo/Desktop/cmake/CMake_II/build/modules/module2 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shuo/Desktop/cmake/CMake_II/modules/module2/src/server.cpp -o CMakeFiles/module2.dir/src/server.cpp.s
+	cd /home/shuo/Desktop/vision/25-vision-chen-shuo/CMake_II/build/modules/module2 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shuo/Desktop/vision/25-vision-chen-shuo/CMake_II/modules/module2/src/server.cpp -o CMakeFiles/module2.dir/src/server.cpp.s
 
 modules/module2/CMakeFiles/module2.dir/src/variable.cpp.o: modules/module2/CMakeFiles/module2.dir/flags.make
 modules/module2/CMakeFiles/module2.dir/src/variable.cpp.o: ../modules/module2/src/variable.cpp
 modules/module2/CMakeFiles/module2.dir/src/variable.cpp.o: modules/module2/CMakeFiles/module2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuo/Desktop/cmake/CMake_II/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object modules/module2/CMakeFiles/module2.dir/src/variable.cpp.o"
-	cd /home/shuo/Desktop/cmake/CMake_II/build/modules/module2 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/module2/CMakeFiles/module2.dir/src/variable.cpp.o -MF CMakeFiles/module2.dir/src/variable.cpp.o.d -o CMakeFiles/module2.dir/src/variable.cpp.o -c /home/shuo/Desktop/cmake/CMake_II/modules/module2/src/variable.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuo/Desktop/vision/25-vision-chen-shuo/CMake_II/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object modules/module2/CMakeFiles/module2.dir/src/variable.cpp.o"
+	cd /home/shuo/Desktop/vision/25-vision-chen-shuo/CMake_II/build/modules/module2 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT modules/module2/CMakeFiles/module2.dir/src/variable.cpp.o -MF CMakeFiles/module2.dir/src/variable.cpp.o.d -o CMakeFiles/module2.dir/src/variable.cpp.o -c /home/shuo/Desktop/vision/25-vision-chen-shuo/CMake_II/modules/module2/src/variable.cpp
 
 modules/module2/CMakeFiles/module2.dir/src/variable.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/module2.dir/src/variable.cpp.i"
-	cd /home/shuo/Desktop/cmake/CMake_II/build/modules/module2 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shuo/Desktop/cmake/CMake_II/modules/module2/src/variable.cpp > CMakeFiles/module2.dir/src/variable.cpp.i
+	cd /home/shuo/Desktop/vision/25-vision-chen-shuo/CMake_II/build/modules/module2 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shuo/Desktop/vision/25-vision-chen-shuo/CMake_II/modules/module2/src/variable.cpp > CMakeFiles/module2.dir/src/variable.cpp.i
 
 modules/module2/CMakeFiles/module2.dir/src/variable.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/module2.dir/src/variable.cpp.s"
-	cd /home/shuo/Desktop/cmake/CMake_II/build/modules/module2 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shuo/Desktop/cmake/CMake_II/modules/module2/src/variable.cpp -o CMakeFiles/module2.dir/src/variable.cpp.s
+	cd /home/shuo/Desktop/vision/25-vision-chen-shuo/CMake_II/build/modules/module2 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shuo/Desktop/vision/25-vision-chen-shuo/CMake_II/modules/module2/src/variable.cpp -o CMakeFiles/module2.dir/src/variable.cpp.s
 
 # Object files for target module2
 module2_OBJECTS = \
@@ -173,19 +173,19 @@ modules/module2/libmodule2.a: modules/module2/CMakeFiles/module2.dir/src/server.
 modules/module2/libmodule2.a: modules/module2/CMakeFiles/module2.dir/src/variable.cpp.o
 modules/module2/libmodule2.a: modules/module2/CMakeFiles/module2.dir/build.make
 modules/module2/libmodule2.a: modules/module2/CMakeFiles/module2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/shuo/Desktop/cmake/CMake_II/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX static library libmodule2.a"
-	cd /home/shuo/Desktop/cmake/CMake_II/build/modules/module2 && $(CMAKE_COMMAND) -P CMakeFiles/module2.dir/cmake_clean_target.cmake
-	cd /home/shuo/Desktop/cmake/CMake_II/build/modules/module2 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/module2.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/shuo/Desktop/vision/25-vision-chen-shuo/CMake_II/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX static library libmodule2.a"
+	cd /home/shuo/Desktop/vision/25-vision-chen-shuo/CMake_II/build/modules/module2 && $(CMAKE_COMMAND) -P CMakeFiles/module2.dir/cmake_clean_target.cmake
+	cd /home/shuo/Desktop/vision/25-vision-chen-shuo/CMake_II/build/modules/module2 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/module2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 modules/module2/CMakeFiles/module2.dir/build: modules/module2/libmodule2.a
 .PHONY : modules/module2/CMakeFiles/module2.dir/build
 
 modules/module2/CMakeFiles/module2.dir/clean:
-	cd /home/shuo/Desktop/cmake/CMake_II/build/modules/module2 && $(CMAKE_COMMAND) -P CMakeFiles/module2.dir/cmake_clean.cmake
+	cd /home/shuo/Desktop/vision/25-vision-chen-shuo/CMake_II/build/modules/module2 && $(CMAKE_COMMAND) -P CMakeFiles/module2.dir/cmake_clean.cmake
 .PHONY : modules/module2/CMakeFiles/module2.dir/clean
 
 modules/module2/CMakeFiles/module2.dir/depend:
-	cd /home/shuo/Desktop/cmake/CMake_II/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/shuo/Desktop/cmake/CMake_II /home/shuo/Desktop/cmake/CMake_II/modules/module2 /home/shuo/Desktop/cmake/CMake_II/build /home/shuo/Desktop/cmake/CMake_II/build/modules/module2 /home/shuo/Desktop/cmake/CMake_II/build/modules/module2/CMakeFiles/module2.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/shuo/Desktop/vision/25-vision-chen-shuo/CMake_II/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/shuo/Desktop/vision/25-vision-chen-shuo/CMake_II /home/shuo/Desktop/vision/25-vision-chen-shuo/CMake_II/modules/module2 /home/shuo/Desktop/vision/25-vision-chen-shuo/CMake_II/build /home/shuo/Desktop/vision/25-vision-chen-shuo/CMake_II/build/modules/module2 /home/shuo/Desktop/vision/25-vision-chen-shuo/CMake_II/build/modules/module2/CMakeFiles/module2.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : modules/module2/CMakeFiles/module2.dir/depend
 

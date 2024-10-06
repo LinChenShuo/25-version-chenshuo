@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/shuo/Desktop/cmake/CMake_II
+CMAKE_SOURCE_DIR = /home/shuo/Desktop/vision/25-vision-chen-shuo/CMake_II
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/shuo/Desktop/cmake/CMake_II/build
+CMAKE_BINARY_DIR = /home/shuo/Desktop/vision/25-vision-chen-shuo/CMake_II/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/shuo/Desktop/cmake/CMake_II/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/shuo/Desktop/cmake/CMake_II/build/CMakeFiles /home/shuo/Desktop/cmake/CMake_II/build/modules/assembly2//CMakeFiles/progress.marks
-	cd /home/shuo/Desktop/cmake/CMake_II/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 modules/assembly2/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/shuo/Desktop/cmake/CMake_II/build/CMakeFiles 0
+	cd /home/shuo/Desktop/vision/25-vision-chen-shuo/CMake_II/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/shuo/Desktop/vision/25-vision-chen-shuo/CMake_II/build/CMakeFiles /home/shuo/Desktop/vision/25-vision-chen-shuo/CMake_II/build/modules/assembly2//CMakeFiles/progress.marks
+	cd /home/shuo/Desktop/vision/25-vision-chen-shuo/CMake_II/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 modules/assembly2/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shuo/Desktop/vision/25-vision-chen-shuo/CMake_II/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/shuo/Desktop/cmake/CMake_II/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 modules/assembly2/clean
+	cd /home/shuo/Desktop/vision/25-vision-chen-shuo/CMake_II/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 modules/assembly2/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/shuo/Desktop/cmake/CMake_II/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 modules/assembly2/preinstall
+	cd /home/shuo/Desktop/vision/25-vision-chen-shuo/CMake_II/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 modules/assembly2/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/shuo/Desktop/cmake/CMake_II/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 modules/assembly2/preinstall
+	cd /home/shuo/Desktop/vision/25-vision-chen-shuo/CMake_II/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 modules/assembly2/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/shuo/Desktop/cmake/CMake_II/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/shuo/Desktop/vision/25-vision-chen-shuo/CMake_II/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 modules/assembly2/CMakeFiles/assembly2.dir/rule:
-	cd /home/shuo/Desktop/cmake/CMake_II/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 modules/assembly2/CMakeFiles/assembly2.dir/rule
+	cd /home/shuo/Desktop/vision/25-vision-chen-shuo/CMake_II/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 modules/assembly2/CMakeFiles/assembly2.dir/rule
 .PHONY : modules/assembly2/CMakeFiles/assembly2.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ assembly2: modules/assembly2/CMakeFiles/assembly2.dir/rule
 
 # fast build rule for target.
 assembly2/fast:
-	cd /home/shuo/Desktop/cmake/CMake_II/build && $(MAKE) $(MAKESILENT) -f modules/assembly2/CMakeFiles/assembly2.dir/build.make modules/assembly2/CMakeFiles/assembly2.dir/build
+	cd /home/shuo/Desktop/vision/25-vision-chen-shuo/CMake_II/build && $(MAKE) $(MAKESILENT) -f modules/assembly2/CMakeFiles/assembly2.dir/build.make modules/assembly2/CMakeFiles/assembly2.dir/build
 .PHONY : assembly2/fast
 
 src/assembly2.o: src/assembly2.cpp.o
@@ -135,7 +135,7 @@ src/assembly2.o: src/assembly2.cpp.o
 
 # target to build an object file
 src/assembly2.cpp.o:
-	cd /home/shuo/Desktop/cmake/CMake_II/build && $(MAKE) $(MAKESILENT) -f modules/assembly2/CMakeFiles/assembly2.dir/build.make modules/assembly2/CMakeFiles/assembly2.dir/src/assembly2.cpp.o
+	cd /home/shuo/Desktop/vision/25-vision-chen-shuo/CMake_II/build && $(MAKE) $(MAKESILENT) -f modules/assembly2/CMakeFiles/assembly2.dir/build.make modules/assembly2/CMakeFiles/assembly2.dir/src/assembly2.cpp.o
 .PHONY : src/assembly2.cpp.o
 
 src/assembly2.i: src/assembly2.cpp.i
@@ -143,7 +143,7 @@ src/assembly2.i: src/assembly2.cpp.i
 
 # target to preprocess a source file
 src/assembly2.cpp.i:
-	cd /home/shuo/Desktop/cmake/CMake_II/build && $(MAKE) $(MAKESILENT) -f modules/assembly2/CMakeFiles/assembly2.dir/build.make modules/assembly2/CMakeFiles/assembly2.dir/src/assembly2.cpp.i
+	cd /home/shuo/Desktop/vision/25-vision-chen-shuo/CMake_II/build && $(MAKE) $(MAKESILENT) -f modules/assembly2/CMakeFiles/assembly2.dir/build.make modules/assembly2/CMakeFiles/assembly2.dir/src/assembly2.cpp.i
 .PHONY : src/assembly2.cpp.i
 
 src/assembly2.s: src/assembly2.cpp.s
@@ -151,7 +151,7 @@ src/assembly2.s: src/assembly2.cpp.s
 
 # target to generate assembly for a file
 src/assembly2.cpp.s:
-	cd /home/shuo/Desktop/cmake/CMake_II/build && $(MAKE) $(MAKESILENT) -f modules/assembly2/CMakeFiles/assembly2.dir/build.make modules/assembly2/CMakeFiles/assembly2.dir/src/assembly2.cpp.s
+	cd /home/shuo/Desktop/vision/25-vision-chen-shuo/CMake_II/build && $(MAKE) $(MAKESILENT) -f modules/assembly2/CMakeFiles/assembly2.dir/build.make modules/assembly2/CMakeFiles/assembly2.dir/src/assembly2.cpp.s
 .PHONY : src/assembly2.cpp.s
 
 # Help Target
@@ -177,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/shuo/Desktop/cmake/CMake_II/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/shuo/Desktop/vision/25-vision-chen-shuo/CMake_II/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
